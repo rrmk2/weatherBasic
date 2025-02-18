@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!-- contents of the page here -->
+    <div id="main-container">
+      <div class="search-header">
+        <form action="" method="get" id="form-city-search">
+          <input type="text" name="cityname" id="input-txt-city-search" placeholder="City name">
+          <button type="submit" id="btn-submit-city-search">Get Weather</button>
+        </form>
+      </div>
+      <div class="title-block title-text">
+        <h2>London, UK</h2>
+        <p>Sunday February 16</p>
+      </div>
+      <div class="init-forecast-pane">
+        <div class="init-forecast-left">
+          <div class="curr-weather-icon">
+            <!-- https://fontawesome.com/search?o=r&ic=free&c=weather -->
+            <!-- <i class="fa-solid fa-sun"></i> -->
+             <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="">
+          </div>
+          <div class="init-forecast-temp">
+            <!-- degree symbol marked here -->
+            <h2><span id="current-temp">21</span>&deg;</h2>
+            <p id="current-description" style="text-transform: capitalize;">Mostly cloudy</p>
+          </div>
+        </div>
+        <div class="vert-border"></div>
+        <div class="init-forecast-right">
+          <div data-thigh>
+            <p><span>23</span>&deg;</p>
+            <p>High</p>
+          </div>
+          <div data-wind>
+            <p>7mph</p>
+            <p>Wind</p>
+          </div>
+          <div data-sunrise>
+            <p>05:27</p>
+            <p>Sunrise</p>
+          </div>
+          <div data-tlow>
+            <p><span>14</span>&deg;</p>
+            <p>Low</p>
+          </div>
+          <div data-rain>
+            <p>0%</p>
+            <p>Rain</p>
+          </div>
+          <div data-sunset>
+            <p>20:57</p>
+            <p>Sunset</p>
+          </div>
+        </div>
+      </div>
+      <div class="curr-day-forecast">
+        <div class="title-text">
+          <h3>Today's weather</h3>
+        </div>
+        <div class="curr-day-timecards">
+          <div class="card">
+            <p>3am</p>
+            <i class="fa-solid fa-cloud"></i>
+            <p>14&deg;</p>
+          </div>
+          <div class="card">
+            <p>6am</p>
+            <i class="fa-solid fa-cloud"></i>
+            <p>14&deg;</p>
+          </div>
+          <div class="card">
+            <p>9am</p>
+            <i class="fa-solid fa-cloud"></i>
+            <p>14&deg;</p>
+          </div>
+          <div class="card">
+            <p>12pm</p>
+            <i class="fa-solid fa-cloud"></i>
+            <p>14&deg;</p>
+          </div>
+          <div class="card">
+            <p>3pm</p>
+            <i class="fa-solid fa-cloud"></i>
+            <p>14&deg;</p>
+          </div>
+          <div class="card">
+            <p>6pm</p>
+            <i class="fa-solid fa-cloud"></i>
+            <p>14&deg;</p>
+          </div>
+          <div class="card">
+            <p>9pm</p>
+            <i class="fa-solid fa-cloud"></i>
+            <p>14&deg;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

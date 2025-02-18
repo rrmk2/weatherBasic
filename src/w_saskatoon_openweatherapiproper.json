@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": -106.6345,
+    "lat": 52.1168
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": -25.62,
+    "feels_like": -38.22,
+    "temp_min": -25.62,
+    "temp_max": -25.62,
+    "pressure": 1049,
+    "humidity": 83,
+    "sea_level": 1049,
+    "grnd_level": 976
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 6.91,
+    "deg": 110
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1739848628,
+  "sys": {
+    "type": 1,
+    "id": 977,
+    "country": "CA",
+    "sunrise": 1739801840,
+    "sunset": 1739838240
+  },
+  "timezone": -21600,
+  "id": 6141256,
+  "name": "Saskatoon",
+  "cod": 200
+}

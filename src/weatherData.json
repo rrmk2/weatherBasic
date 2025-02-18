@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": -106.5489,
+    "lat": 52.176
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 247.57,
+    "feels_like": 240.57,
+    "temp_min": 247.14,
+    "temp_max": 247.57,
+    "pressure": 1045,
+    "humidity": 75,
+    "sea_level": 1045,
+    "grnd_level": 974
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.09,
+    "deg": 90
+  },
+  "clouds": {
+    "all": 40
+  },
+  "dt": 1739833194,
+  "sys": {
+    "type": 2,
+    "id": 47667,
+    "country": "CA",
+    "sunrise": 1739801827,
+    "sunset": 1739838211
+  },
+  "timezone": -21600,
+  "id": 6159999,
+  "name": "Sutherland",
+  "cod": 200
+}
